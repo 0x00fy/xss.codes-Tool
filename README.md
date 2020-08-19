@@ -8,8 +8,7 @@ You can Exploiting The :
 *Useragent Loggers
 *Webshell Log Panels eg.
 
-# Example Vulnerable code:
-<?
+# Example Vulnerable PHP code:
+
 $sakso = $_SERVER["REMOTE_ADRR"];
 echo "<h1>ip logged : </h1>".$sakso
-?>
