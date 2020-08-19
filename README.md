@@ -9,7 +9,7 @@ You can Exploiting The :
 *Webshell Log Panels eg.
 
 # Example Vulnerable code:
-  <?
-  $sakso = $_SERVER["REMOTE_ADRR"];
-  echo "<h1>ip logged : </h1>".$sakso
-  ?>
+<?
+$sakso = $_SERVER["REMOTE_ADRR"];
+echo "<h1>ip logged : </h1>".$sakso
+?>
