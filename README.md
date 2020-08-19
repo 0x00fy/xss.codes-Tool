@@ -11,4 +11,4 @@ You can Exploiting The :
 # Example Vulnerable PHP code:
 
 $sakso = $_SERVER["REMOTE_ADRR"];
-echo "<h1>ip logged : </h1>".$sakso
+echo "<p>ip logged : </p>".$sakso
