@@ -18,3 +18,6 @@ $sakso = $_SERVER["REMOTE_ADRR"];
 
 echo "ip logged :".$sakso
 
+# Mass : 
+
+python mass.py -l sitelist.txt -u xss.codes userdomainname
