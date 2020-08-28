@@ -1,4 +1,11 @@
 #!/usr/bin/python3
+
+
+#/
+#   Codder : 0x0fy
+#   twitter.com/0x00fy
+#\
+
 import requests,argparse,os
 
 parser = argparse.ArgumentParser(description="XSS Attacker By : 0x00fy")
