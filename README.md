@@ -1,7 +1,9 @@
-# xss.codes-Tool
+### xss.codes-Tool
 https://xss.codes Http Header XSS Attacker
 
-# What does this do?
+### What does this do?
+
+Allows you to send XSS payloads to HTTP Header values (with Cloudflare Bypass)
 
 You can Exploiting The : 
 
@@ -9,15 +11,24 @@ You can Exploiting The :
 
 *Useragent Loggers
 
-*Webshell Log Panels eg.
+*Webshell Log Panels
 
-# Example Vulnerable PHP code:
+*Malware Stealer Panels
 
+
+### Example Vulnerable PHP code:
+
+```
+<?
 
 $sakso = $_SERVER["REMOTE_ADRR"];
 
 echo "ip logged :".$sakso
 
-# Mass : 
+?>
+```
+
+
+### Mass : 
 
 python mass.py -l sitelist.txt -u xss.codes userdomainname
