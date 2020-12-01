@@ -33,7 +33,17 @@ echo "ip logged :".$sakso
 
 ### Usage
 
+1)- Open https://xss.codes/register page and create account (The domain name you will enter while registering is the page reserved for you. From xss.codes eg : xss.codes/s/userdomainname)
 
+2)- Follow this command list ;
+
+```
+$ git clone https://github.com/0x00fy/xss.codes-Tool/
+
+$ cd xss.codes-Tool
+
+$ python xss.py -t [TARGET] -u [xsscodes user domainname]
+```
 
 
 ### Mass : 
